@@ -1,0 +1,38 @@
+*{
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn{
+    width: 50px;
+    height: 200px;
+    margin: 0;
+    line-height: 350px;
+}
+
+
+button.black{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    height: 100px;
+    width: 35px;
+    line-height: 150px;
+    transform: translatex(-50%);
+    border-radius: 0 0 5px 5px;
+    
+}
+button.black:hover{
+    background-color: rgb(61, 60, 60);
+
+}
